@@ -1,10 +1,12 @@
 📧 Spam Detection System
+
 🔍 Project Overview
 The Spam Detection System is a supervised machine learning project that classifies emails or text messages as either "spam" or "ham" (not spam). It uses natural language processing (NLP) techniques to transform text into numerical data and trains a Logistic Regression model for classification.
 
 This project demonstrates how real-world problems like spam filtering can be solved using text preprocessing, feature extraction (TF-IDF), and classification algorithms from scikit-learn.
 
 🧱 Key Components
+
 ✅ Dependencies
 The project uses:
 
@@ -70,6 +72,7 @@ python
 Copy
 Edit
 model.predict(tfidf_vectorizer.transform(["Win a free iPhone now!"]))
+
 ✅ Conclusion
 The Spam Detection System showcases the practical application of NLP and ML for a common problem. It is lightweight, accurate, and can be integrated into email clients, SMS apps, or backend services for spam filtering.
 
